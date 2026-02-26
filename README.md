@@ -32,14 +32,14 @@ AgentGuard runs a lightweight local server alongside your OpenClaw gateway. The 
 ### What Gets Logged
 
 OpenClaw checks in before:
-- 📧 Sending emails or messages
-- 💸 Payments, transfers, financial transactions
-- 🗑️ Deleting files, emails, or data
-- 📢 Publishing content publicly
-- 📅 Modifying calendar events
-- 🔧 Installing software or running scripts
-- 🔐 Handling credentials or API keys
-- 🌐 Calling external APIs with your credentials
+-  Sending emails or messages
+-  Payments, transfers, financial transactions
+-  Deleting files, emails, or data
+-  Publishing content publicly
+-  Modifying calendar events
+-  Installing software or running scripts
+-  Handling credentials or API keys
+-  Calling external APIs with your credentials
 
 Safe actions like reading files, searching the web, and drafting content are **not** logged.
 
@@ -212,7 +212,6 @@ pm2-startup install
 - [x] Approve/Deny buttons in Telegram
 - [x] Full audit log endpoint
 - [x] Local-only mode (no Telegram required)
-- [ ] WhatsApp support
 - [ ] Daily digest sent to your chat each morning
 - [ ] Per-action policy rules ("always block payments over $100")
 - [ ] LLM-based classifier for better accuracy
